@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Savora | Wood Fired Kitchen</title>
+<meta name="description" content="Savora is a warm wood fired restaurant. View the menu, read our story, and reserve a table.">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,600;9..144,0,700;9..144,1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="nav" id="topnav">
+  <div class="wrap navinner">
+    <a class="brand" href="#top" data-scroll>
+      <span class="brandmark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><circle cx="16" cy="16" r="15" fill="#B5451B"/><circle cx="16" cy="16" r="10" fill="#FFF8F0"/><circle cx="16" cy="16" r="5.5" fill="#B5451B"/><circle cx="14" cy="14" r="1.6" fill="#FFF8F0"/></svg>
+      </span>
+      <span class="brandtext">Savora</span>
+    </a>
+    <nav class="links" id="navlinks" aria-label="Primary">
+      <a href="#menu" data-scroll>Menu</a>
+      <a href="#story" data-scroll>Story</a>
+      <a href="#gallery" data-scroll>Gallery</a>
+      <a href="#reviews" data-scroll>Reviews</a>
+      <a href="#visit" data-scroll>Visit</a>
+    </nav>
+    <div class="navactions">
+      <a class="btn btnsmall btnsolid" href="#reserve" data-scroll>Reserve</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobilemenu" id="mobilemenu">
+    <a href="#menu" data-scroll>Menu</a>
+    <a href="#story" data-scroll>Story</a>
+    <a href="#gallery" data-scroll>Gallery</a>
+    <a href="#reviews" data-scroll>Reviews</a>
+    <a href="#visit" data-scroll>Visit</a>
+    <a class="btn btnsolid" href="#reserve" data-scroll>Reserve a Table</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap herogrid">
+      <div class="herocopy reveal">
+        <p class="eyebrow"><span class="dot"></span>Wood fired kitchen in the old market district</p>
+        <h1>Slow fire.<br>Bold flavor.<br><em>Warm welcome.</em></h1>
+        <p class="lede">Savora is a cozy dining room built around one oak fired oven. Seasonal produce, handmade pasta, and roasts served with care every evening.</p>
+        <div class="ctarow">
+          <a class="btn btnsolid btnlarge" href="#reserve" data-scroll>Reserve a Table</a>
+          <a class="btn btnghost btnlarge" href="#menu" data-scroll>View Menu</a>
+        </div>
+        <div class="badges">
+          <div class="badge">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B5451B" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div><strong>Open Tue to Sun</strong><span>5 pm till 11 pm</span></div>
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B5451B" stroke-width="2" stroke-linecap="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <div><strong>14 Market Lane</strong><span>Riverside Quarter</span></div>
+          </div>
+          <div class="badge">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="#B5451B"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9z"/></svg>
+            <div><strong>4.9 Guest Rating</strong><span>From 2,400 reviews</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="heroart reveal" aria-hidden="true">
+        <div class="platewrap">
+          <div class="ring ring1"></div>
+          <div class="ring ring2"></div>
+          <div class="plate">
+            <div class="plateinner">
+              <svg viewBox="0 0 200 200" class="foodart">
+                <circle cx="100" cy="100" r="62" fill="#E9A23B"/>
+                <circle cx="100" cy="100" r="52" fill="#D97E2B"/>
+                <ellipse cx="82" cy="92" rx="14" ry="9" fill="#3E7A3A"/>
+                <ellipse cx="118" cy="88" rx="14" ry="9" fill="#3E7A3A"/>
+                <ellipse cx="100" cy="112" rx="18" ry="11" fill="#4C8A44"/>
+                <circle cx="92" cy="100" r="6" fill="#B5451B"/>
+                <circle cx="110" cy="104" r="6" fill="#B5451B"/>
+                <circle cx="100" cy="94" r="6" fill="#8C3413"/>
+              </svg>
+            </div>
+            <div class="plategloss"></div>
+          </div>
+          <div class="chip chipa">
+            <strong>Tonight</strong><span>Oven roast at 7 pm</span>
+          </div>
+          <div class="chip chipb">
+            <span class="pulse"></span><strong>12 tables left</strong><span>this weekend</span>
+          </div>
+          <div class="herb herb1"></div>
+          <div class="herb herb2"></div>
+          <div class="herb herb3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap herostrip reveal">
+      <div class="stripitem"><strong>Oak fired oven</strong><span>Every dish touches live fire</span></div>
+      <div class="stripitem"><strong>Local farms</strong><span>Produce picked each morning</span></div>
+      <div class="stripitem"><strong>Handmade daily</strong><span>Pasta rolled in house</span></div>
+      <div class="stripitem"><strong>Private room</strong><span>Seats twelve for events</span></div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section" id="menu">
+    <div class="wrap">
+      <div class="sechead reveal">
+        <p class="kicker">Our Menu</p>
+        <h2>Tonight at the oven</h2>
+        <p class="sub">Four short lists that change with the season. Prices include bread and house olives.</p>
+      </div>
+      <div class="tabs reveal" role="tablist" aria-label="Menu categories">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="starters">Starters</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="mains">Mains</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="desserts">Desserts</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="drinks">Drinks</button>
+        <span class="tabglow" id="tabglow"></span>
+      </div>
+      <div class="menupanels reveal">
+        <div class="menupanel active" data-panel="starters" role="tabpanel">
+          <article class="dish"><div><h3>Charred Sourdough <span class="tag veg">Veg</span></h3><p>Smoked butter, sea salt, rosemary oil</p></div><span class="price">8</span></article>
+          <article class="dish"><div><h3>Burrata and Figs <span class="tag veg">Veg</span></h3><p>Creamy burrata, black figs, basil, aged vinegar</p></div><span class="price">14</span></article>
+          <article class="dish"><div><h3>Crispy Calamari</h3><p>Lemon aioli, parsley, chili salt</p></div><span class="price">15</span></article>
+          <article class="dish"><div><h3>Roast Beet Salad <span class="tag veg">Veg</span></h3><p>Whipped goat cheese, pistachio, orange</p></div><span class="price">13</span></article>
+          <article class="dish"><div><h3>Soup of the Day <span class="tag veg">Veg</span></h3><p>Ask your server for todays pot from the garden</p></div><span class="price">9</span></article>
+          <article class="dish"><div><h3>Beef Carpaccio</h3><p>Capers, rocket, parmesan, olive oil</p></div><span class="price">16</span></article>
+        </div>
+        <div class="menupanel" data-panel="mains" role="tabpanel" hidden>
+          <article class="dish featured"><div><h3>Signature Oak Roast Chicken</h3><p>Half chicken, garlic confit, pan juices, grilled lemon</p></div><span class="price">26</span></article>
+          <article class="dish"><div><h3>Hand Cut Tagliatelle <span class="tag veg">Veg</span></h3><p>Wild mushrooms, thyme cream, aged parmesan</p></div><span class="price">22</span></article>
+          <article class="dish"><div><h3>Grilled Sea Bass</h3><p>Fennel, saffron broth, crispy potatoes</p></div><span class="price">29</span></article>
+          <article class="dish"><div><h3>Slow Beef Short Rib</h3><p>Six hour rib, glazed carrots, mash, red wine jus</p></div><span class="price">32</span></article>
+          <article class="dish"><div><h3>Fire Baked Flatbread <span class="tag veg">Veg</span></h3><p>San Marzano tomato, fior di latte, basil</p></div><span class="price">18</span></article>
+          <article class="dish"><div><h3>Lamb Rack</h3><p>Herb crust, pea puree, mint salsa</p></div><span class="price">34</span></article>
+        </div>
+        <div class="menupanel" data-panel="desserts" role="tabpanel" hidden>
+          <article class="dish"><div><h3>Burnt Basque Cheesecake</h3><p>Caramel top, macerated plums</p></div><span class="price">11</span></article>
+          <article class="dish"><div><h3>Dark Chocolate Torte <span class="tag veg">Veg</span></h3><p>Olive oil, sea salt, vanilla cream</p></div><span class="price">12</span></article>
+          <article class="dish"><div><h3>Wood Oven Plum Crumble</h3><p>Oat crumble, brown butter ice cream</p></div><span class="price">10</span></article>
+          <article class="dish"><div><h3>Affogato <span class="tag veg">Veg</span></h3><p>Vanilla gelato drowned in double espresso</p></div><span class="price">8</span></article>
+        </div>
+        <div class="menupanel" data-panel="drinks" role="tabpanel" hidden>
+          <article class="dish"><div><h3>Smoked Negroni</h3><p>Oak smoke, orange oils, large ice cube</p></div><span class="price">14</span></article>
+          <article class="dish"><div><h3>Blood Orange Spritz</h3><p>Blood orange, prosecco, soda, rosemary</p></div><span class="price">12</span></article>
+          <article class="dish"><div><h3>House Red, Glass</h3><p>Soft berry red from hillside vines</p></div><span class="price">11</span></article>
+          <article class="dish"><div><h3>Fresh Linden Cooler</h3><p>Linden flower, lemon, mint, sparkling water</p></div><span class="price">7</span></article>
+        </div>
+      </div>
+      <p class="menunote reveal">Menus rotate with the market. Tell us about allergies and we will adapt any plate.</p>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="section sectiontint" id="story">
+    <div class="wrap storygrid">
+      <div class="storycopy reveal">
+        <p class="kicker">Our Story</p>
+        <h2>A small room with a big fire</h2>
+        <p>Savora began in 2012 as a twelve seat counter around a secondhand oven. Today the room seats eighty, but the ritual is the same: light the oak at dawn, bake bread at noon, welcome guests at five.</p>
+        <p>We buy from nine nearby farms and bake everything in house. Nothing rushed, nothing wasted.</p>
+        <div class="stats">
+          <div class="stat"><strong data-count="14">14</strong><span>Years of fire</span></div>
+          <div class="stat"><strong data-count="9">9</strong><span>Partner farms</span></div>
+          <div class="stat"><strong data-count="80">80</strong><span>Seats nightly</span></div>
+        </div>
+      </div>
+      <div class="storycard reveal">
+        <div class="storyart" aria-hidden="true">
+          <svg viewBox="0 0 320 220" width="100%" height="100%">
+            <rect x="0" y="0" width="320" height="220" rx="20" fill="#1C1410"/>
+            <ellipse cx="160" cy="150" rx="80" ry="22" fill="#3A2A20"/>
+            <rect x="100" y="60" width="120" height="90" rx="14" fill="#4A3325"/>
+            <rect x="112" y="74" width="96" height="62" rx="10" fill="#1C1410"/>
+            <ellipse cx="160" cy="118" rx="34" ry="16" fill="#B5451B"/>
+            <ellipse cx="160" cy="112" rx="22" ry="11" fill="#E9A23B"/>
+            <ellipse cx="160" cy="106" rx="11" ry="7" fill="#FFF3D6"/>
+            <rect x="70" y="40" width="180" height="14" rx="7" fill="#2A1D15"/>
+            <circle cx="90" cy="180" r="5" fill="#E9A23B"/>
+            <circle cx="230" cy="180" r="5" fill="#E9A23B"/>
+          </svg>
+        </div>
+        <div class="storycardbody">
+          <strong>The oven never sleeps</strong>
+          <p>Kept at a steady glow from dawn till close, our oak oven bakes, roasts, and chars everything you taste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <div class="sechead reveal">
+        <p class="kicker">Gallery</p>
+        <h2>Scenes from the dining room</h2>
+        <p class="sub">Solid color plates, live fire, and late evening light. Hover any card to lift it.</p>
+      </div>
+      <div class="gallery reveal">
+        <figure class="gcard g1"><div class="gshape"></div><figcaption><strong>The Dining Room</strong><span>Oak tables under warm lamps</span></figcaption></figure>
+        <figure class="gcard g2"><div class="gshape"></div><figcaption><strong>From the Fire</strong><span>Flatbreads blistered in seconds</span></figcaption></figure>
+        <figure class="gcard g3"><div class="gshape"></div><figcaption><strong>Fresh Pasta</strong><span>Rolled every afternoon</span></figcaption></figure>
+        <figure class="gcard g4"><div class="gshape"></div><figcaption><strong>Sweet Finish</strong><span>Basque cheesecake, plum compote</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section sectiontint" id="reviews">
+    <div class="wrap">
+      <div class="sechead reveal">
+        <p class="kicker">Guest Notes</p>
+        <h2>What neighbors say</h2>
+      </div>
+      <div class="reviews">
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>The roast chicken alone is worth the trip. Crisp skin, deep smoky juices, kind staff who treat you like family.</p>
+          <footer><span class="avatar">M</span><span><strong>Maya R.</strong>Regular since 2018</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>Booked for six, stayed for four hours. Candle light, great wine list, and the best burrata in the city.</p>
+          <footer><span class="avatar">D</span><span><strong>Daniel K.</strong>Birthday dinner</span></footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>Quiet corners, quick service, generous plates. Our team lunch spot and our anniversary spot in one.</p>
+          <footer><span class="avatar">A</span><span><strong>Amara S.</strong>Local guide</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT + RESERVE -->
+  <section class="section" id="visit">
+    <div class="wrap visitgrid">
+      <div class="visitinfo reveal">
+        <p class="kicker">Visit Us</p>
+        <h2>Find your table</h2>
+        <p class="sub">Walk ins welcome at the counter. Dining room tables are held for two hours.</p>
+        <div class="infocard">
+          <div class="inforow">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B5451B" stroke-width="2" stroke-linecap="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <div><strong>14 Market Lane, Riverside Quarter</strong><span>Two blocks from Central Station, street parking after 6 pm</span></div>
+          </div>
+          <div class="inforow">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B5451B" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div><strong>Tue to Sun, 5 pm till 11 pm</strong><span>Kitchen closes at 10 pm, bar till late</span></div>
+          </div>
+          <div class="inforow">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B5451B" stroke-width="2" stroke-linecap="round"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+            <div><strong>(555) 014 8890</strong><span>Call for parties above eight guests</span></div>
+          </div>
+        </div>
+        <div class="hoursbox">
+          <strong>Weekly Hours</strong>
+          <ul>
+            <li><span>Tuesday to Thursday</span><span>5 pm to 10 pm</span></li>
+            <li><span>Friday to Saturday</span><span>5 pm to 11 pm</span></li>
+            <li><span>Sunday</span><span>4 pm to 9 pm</span></li>
+            <li><span>Monday</span><span>Closed for rest</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="formcard reveal" id="reserve">
+        <h3>Reserve a table</h3>
+        <p class="formsub">We confirm every request within one hour during opening times.</p>
+        <form id="reserveform" novalidate>
+          <div class="frow">
+            <label>Full name<input type="text" name="name" id="fname" placeholder="Jordan Ellis" autocomplete="name"></label>
+            <label>Phone<input type="tel" name="phone" id="fphone" placeholder="(555) 000 1234" autocomplete="tel"></label>
+          </div>
+          <label>Email<input type="email" name="email" id="femail" placeholder="you@example.com" autocomplete="email"></label>
+          <div class="frow">
+            <label>Date<input type="date" name="date" id="fdate"></label>
+            <label>Time
+              <select name="time" id="ftime">
+                <option value="">Select time</option>
+                <option>5:30 pm</option>
+                <option>6:00 pm</option>
+                <option>6:30 pm</option>
+                <option>7:00 pm</option>
+                <option>7:30 pm</option>
+                <option>8:00 pm</option>
+                <option>8:30 pm</option>
+                <option>9:00 pm</option>
+              </select>
+            </label>
+            <label>Guests
+              <select name="guests" id="fguests">
+                <option value="">Select</option>
+                <option>1 guest</option>
+                <option>2 guests</option>
+                <option>3 guests</option>
+                <option>4 guests</option>
+                <option>5 guests</option>
+                <option>6 guests</option>
+                <option>7 guests</option>
+                <option>8 guests</option>
+              </select>
+            </label>
+          </div>
+          <label>Notes <span class="opt">(optional)</span><textarea name="notes" id="fnotes" rows="3" placeholder="Window seat, anniversary, allergies, stroller space..."></textarea></label>
+          <p class="formerror" id="formerror" role="alert" hidden></p>
+          <button class="btn btnsolid btnlarge btnfull" type="submit">Request Reservation</button>
+          <p class="formhint">No card needed. Free cancellation up to 3 hours before.</p>
+        </form>
+        <div class="success" id="success" hidden>
+          <div class="checkmark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="52" height="52"><circle cx="24" cy="24" r="23" fill="#2E7D32"/><path d="M15 24.5l6.5 6.5L33.5 18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Request received</h3>
+          <p id="successtext">Thanks. We will confirm shortly.</p>
+          <button class="btn btnghost" id="againbtn" type="button">Make another request</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footgrid">
+    <div class="footbrand">
+      <strong>Savora</strong>
+      <p>Wood fired kitchen in the Riverside Quarter. Seasonal menu, warm room, honest prices.</p>
+    </div>
+    <div class="footcol">
+      <strong>Explore</strong>
+      <a href="#menu" data-scroll>Menu</a>
+      <a href="#story" data-scroll>Story</a>
+      <a href="#gallery" data-scroll>Gallery</a>
+      <a href="#reviews" data-scroll>Reviews</a>
+    </div>
+    <div class="footcol">
+      <strong>Visit</strong>
+      <span>14 Market Lane</span>
+      <span>Tue to Sun from 5 pm</span>
+      <span>(555) 014 8890</span>
+    </div>
+    <div class="footcol">
+      <strong>Follow</strong>
+      <a href="#top" data-scroll>Instagram</a>
+      <a href="#top" data-scroll>Facebook</a>
+      <a href="#top" data-scroll>Newsletter</a>
+    </div>
+  </div>
+  <div class="wrap footbase">
+    <span>© <span id="year">2026</span> Savora Kitchen. All rights reserved.</span>
+    <span>Template ready for your own brand and menu.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
